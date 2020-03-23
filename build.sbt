@@ -35,6 +35,7 @@ lazy val root: Project = project
     run / classLoaderLayeringStrategy := ClassLoaderLayeringStrategy.Flat,
     libraryDependencies ++= Seq(
       "com.spotify" %% "scio-core" % scioVersion,
+      "com.spotify" %% "scio-jdbc" % scioVersion,
       "com.spotify" %% "scio-test" % scioVersion % Test,
       "org.apache.beam" % "beam-runners-direct-java" % beamVersion,
       // optional dataflow runner

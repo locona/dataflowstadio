@@ -2,3 +2,7 @@
 .bigquery
 .repl
 target
+
+.metals/
+.bloop/
+project/metals.sbt
